@@ -41,11 +41,11 @@ fetch(url)
       <p class="md:text-xl text-mygray-400">${description}</p>
       <ul class="flex gap-2 mt-4 flex-wrap">${tags}</ul>
       <div class="flex flex-col gap-4 mt-10 md:flex-row">
-        <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${homepage} target="_blank" rel="noreferrer nofollow">
+        <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${homepage}" target="_blank" rel="noreferrer nofollow">
           <img src="${browser}" alt="" />
           View demo
         </a>
-        <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${html_url} target="_blank" rel="noreferrer nofollow">
+        <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${html_url}" target="_blank" rel="noreferrer nofollow">
           <img src="${github}" alt="" />
           Source code
         </a>
