@@ -13,19 +13,19 @@
     />
   </head>
   <body class="font-dmsans bg-mygray-900 text-white text-base">
-    <main class="px-6 pt-6 pb-16">
-      <header class="flex mb-11">
+    <main class="px-6 pt-6 pb-16 md:pb-32 max-w-[82rem] mx-auto">
+      <header class="flex mb-11  md:backdrop-blur-sm bg-mygray-900/80 md:mb-36">
         <img src="./assets/images/svg/star.svg" alt="" />
-        <div class="pl-4">
+        <div class="px-4">
           <p class="text-primary text-xl font-bold">Maciek WTFowicz</p>
           <p class="text-mygray-500 uppercase text-xs font-bold tracking-wider">
             Frontend developer
           </p>
         </div>
-        <nav class="hidden">
-          <ul>
+        <nav class="hidden md:flex md:ml-auto">
+          <ul class="flex gap-10 items-center font-bold">
             <li>
-              <a href="#About">about</a>
+              <a href="#About">About</a>
             </li>
             <li>
               <a href="#skills">Skills</a>
@@ -34,43 +34,43 @@
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a download href="#">
-                <img src="./assets/images/svg/download.svg" alt="" />
+              <a class="flex gap-2 items-center" download href="#">
+                <img class="w-5 h-5" src="./assets/images/svg/download.svg" alt="" />
                 Resume
               </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a class="px-8 py-[0.875rem] rounded-xl text-mygray-900 bg-primary" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
       </header>
 
-      <section id="about" class="flex flex-col-reverse mb-20">
-        <div class="">
-          <h1 class="font-bold text-2xl mb-4">
+      <section id="about" class="flex gap-5 flex-col-reverse mb-20 md:mb-60 md:flex-row md:justify-between md:items-center ">
+        <div class="max-w-3xl">
+          <h1 class="font-bold text-2xl mb-4 md:text-5xl md:leading-[4rem] ">
             My name is Maciek and I'm an aspiring
             <span class="text-primary">Frontend developer</span> and a keen Star
             Wars fan.
           </h1>
-          <p class="text-mygray-400 leading-5">
+          <p class="text-mygray-400 leading-5 md:text-2xl">
             You might be interested in checking the list of my
-            <a class="text-white" href="#skills">skills</a>. Don't forget to
+            <a class="text-white underline underline-offset-2" href="#skills">skills</a>. Don't forget to
             have a glimpse at my
-            <a class="text-white" href="#projects">projects</a>. I'm looking for
+            <a class="text-white underline underline-offset-2" href="#projects">projects</a>. I'm looking for
             a new challenges so if you have one -
-            <a class="text-white whitespace-nowrap" href="#contact">contact me 😊</a> 
+            <a class="text-white underline underline-offset-2 whitespace-nowrap" href="#contact">contact me</a>&nbsp;😊
           </p>
-          <div class="flex flex-col gap-4 mt-8">
+          <div class="flex flex-col gap-4 mt-8 md:mt-16 md:flex-row items-center">
             <a
-              class="bg-primary rounded-xl text-mygray-900 font-bold text-xl flex gap-3 px-4 py-3 max-w-max"
+              class="bg-primary rounded-xl md:rounded-custom border-2 border-primary text-mygray-900 font-bold text-xl flex gap-3 px-4 py-3 max-w-max md:px-8"
               href="#contact"
             >
               <img src="./assets/images/svg/message.svg" alt="" />
               Get in touch
             </a>
             <a
-              class="text-primary rounded-xl border-2 border-mygray-700 font-bold text-xl flex gap-3 px-4 py-3 max-w-max"
+              class="text-primary rounded-xl md:rounded-custom border-2 border-mygray-700 font-bold text-xl flex gap-3 px-4 py-3 max-w-max md:px-8"
               href="#skills"
             >
               <img src="./assets/images/svg/user.svg" alt="" />
@@ -78,24 +78,24 @@
             </a>
           </div>
         </div>
-        <img class="mb-5" src="./assets/images/person.png" alt="" />
+        <img class="max-w-[26rem]" src="./assets/images/person.png" alt="" />
       </section>
 
-      <section id="skills" class="mb-20">
+      <section id="skills" class="mb-20  md:mb-60 ">
         <h2 class="font-bold text-xl tracking-wider text-mygray-400 mb-4">
           MY SKILLS
         </h2>
-        <p class="font-medium text-2xl mb-10">
+        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
           I've picked up some cool skills along the way, and I'm excited to
           share them with you. Check out what I can do below!
         </p>
-        <div class="flex flex-col gap-4">
-          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5">
-            <img class="mb-10" src="./assets/images/svg/triangle.svg" alt="" />
+        <div class="grid gap-4 md:grid-cols-3">
+          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10">
+            <img class="mb-10 md:mb-20" src="./assets/images/svg/triangle.svg" alt="" />
             <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
               Working knowledge
             </h3>
-            <ul class="text-sm mt-3">
+            <ul class="text-sm mt-3 space-y-2">
               <li>— Semantic HTML5</li>
               <li>— Flexbox</li>
               <li>— Markdown</li>
@@ -107,12 +107,12 @@
               <li>— SASS</li>
             </ul>
           </article>
-          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5">
-            <img class="mb-10" src="./assets/images/svg/circle.svg" alt="" />
+          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10">
+            <img class="mb-10 md:mb-20" src="./assets/images/svg/circle.svg" alt="" />
             <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
               Know something about
             </h3>
-            <ul class="text-sm mt-3">
+            <ul class="text-sm mt-3 space-y-2">
               <li>— JavaScript ES6 + features</li>
               <li>— CSS animations</li>
               <li>— Working with API</li>
@@ -122,12 +122,12 @@
               <li>— Accessibility</li>
             </ul>
           </article>
-          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5">
-            <img class="mb-10" src="./assets/images/svg/shape.svg" alt="" />
+          <article class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10">
+            <img class="mb-10 md:mb-20" src="./assets/images/svg/shape.svg" alt="" />
             <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
               Want to learn
             </h3>
-            <ul class="text-sm mt-3">
+            <ul class="text-sm mt-3 space-y-2">
               <li>— React</li>
               <li>— Node</li>
               <li>— Electron</li>
@@ -140,31 +140,31 @@
         </div>
       </section>
 
-      <section id="projects" class="mb-20">
+      <section id="projects" class="mb-20  md:mb-60">
         <h2 class="font-bold text-xl tracking-wider text-mygray-400 mb-4">
           RECENT PROJECTS
         </h2>
-        <p class="font-medium text-2xl mb-10">
+        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
           Since diving into frontend development in 2023, I've brought a range
           of projects to life. Here's a snapshot of my accomplishments so far.
         </p>
-        <div>
+        <div class="grid md:grid-cols-2 gap-4">
           <article class="bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom ">
-            <div class="p-4  bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto flex gap-[0.375rem] border-b-2 border-mygray-900 shadow-card rounded-t-custom">
+            <div class="p-4  bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto  flex gap-[0.375rem] border-b-2 border-mygray-900 shadow-card rounded-t-custom">
               <div class="rounded-full w-3 h-3 bg-mygray-900 opacity-50"></div>
               <div class="rounded-full w-3 h-3 bg-mygray-900 opacity-50"></div>
               <div class="rounded-full w-3 h-3 bg-mygray-900 opacity-50"></div>
             </div>
-            <div class="p-5">
-              <div class="flex gap-4 items-center ">
+            <div class="p-5 md:p-10">
+              <header class="flex gap-4 items-center mb-4">
                 <h3 class="font-bold text-2xl">simple-editor</h3>
                 <p
                   class="max-w-max rounded px-2 py-1 flex items-center gap-[0.125rem] text-mygray-400 bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto font-medium leading-4"
                 >
                   <img class="w-4 h-4" src="./assets/images/svg/small-star.svg" alt="" />27
                 </p>
-              </div>
-              <p>
+              </header>
+              <p class="md:text-xl text-mygray-400">
                 Phasellus dolor. In dui magna, posuere eget, vestibulum et,
                 tempor auctor, justo fringilla mauris sit amet nibh. Suspendisse
                 pulvinar, augue ac venenatis condimentum, sem libero volutpat...
@@ -175,33 +175,34 @@
                 <li class="text-sm font-medium tracking-wider bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto rounded px-2 py-1 flex items-center">JavaScript</li>
                 <li class="text-sm font-medium tracking-wider bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto rounded px-2 py-1 flex items-center">Tailwind Css</li>
               </ul>
-              <div class="flex flex-col gap-4 mt-10">
-                <a class="bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="#">
+              <div class="flex flex-col gap-4 mt-10 md:flex-row">
+                <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="#">
                   <img src="./assets/images/svg/browser.svg" alt="" />
                   View demo
                 </a>
-                <a class="bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="#">
+                <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="#">
                   <img src="./assets/images/svg/github-color.svg" alt="" />
                   Source code
                 </a>
               </div>
             </div>
           </article>
+
         </div>
       </section>
 
-      <section id="after-hours" class="mb-20">
+      <section id="after-hours" class="mb-20  md:mb-60 ">
         <h2 class="font-bold text-xl tracking-wider text-mygray-400 mb-4">
           AFTER HOURS
         </h2>
-        <p class="font-medium text-2xl mb-10">
+        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
           Outside of my regular working hours, I delve into an array of
           activities and passions. Here's a glimpse into how I spend my
           after-hours.
         </p>
-        <div class="flex flex-col gap-14">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-14 md:gap-4">
           <article>
-            <img class="mb-4" src="./assets/images/music.png" alt="" />
+            <img class="mb-4 md:mb-6" src="./assets/images/music.png" alt="" />
             <h3 class="text-2xl font-bold mb-1">Electronic Music</h3>
             <p class="text-mygray-400">
               Outside of my regular working hours, I immerse myself in the
@@ -209,7 +210,7 @@
             </p>
           </article>
           <article>
-            <img class="mb-4" src="./assets/images/star-wars.png" alt="" />
+            <img class="mb-4 md:mb-6" src="./assets/images/star-wars.png" alt="" />
             <h3 class="text-2xl font-bold mb-1">Star Wars Universum</h3>
             <p class="text-mygray-400">
               In a galaxy not so far away, my leisure time is often spent
@@ -217,7 +218,7 @@
             </p>
           </article>
           <article>
-            <img class="mb-4" src="./assets/images/game.png" alt="" />
+            <img class="mb-4 md:mb-6" src="./assets/images/game.png" alt="" />
             <h3 class="text-2xl font-bold mb-1">Video Games</h3>
             <p class="text-mygray-400">
               Lost in virtual realms, I find joy and challenge in the dynamic
@@ -225,7 +226,7 @@
             </p>
           </article>
           <article>
-            <img class="mb-4" src="./assets/images/gym.png" alt="" />
+            <img class="mb-4 md:mb-6" src="./assets/images/gym.png" alt="" />
             <h3 class="text-2xl font-bold mb-1">Strength Training</h3>
             <p class="text-mygray-400">
               Empowering both body and mind, I'm dedicated to the discipline of
@@ -236,11 +237,11 @@
       </section>
 
       <section id="contact" class="text-center">
-        <h2 class="font-bold text-3xl mb-4">Let's work together</h2>
-        <p class="text-mygray-400 font-medium text-lg leading-6">
+        <h2 class="font-bold text-3xl mb-4 md:text-[2.5rem]">Let's work together</h2>
+        <p class="text-mygray-400 font-medium text-lg md:text-2xl leading-6">
           I'm open for new opportunities.<br>If you have one for me we should talk!
         </p>
-        <a class="bg-primary rounded-custom text-mygray-900 font-bold text-xl flex gap-3 px-8 py-4 mx-auto max-w-max my-10" href="mailto:#">
+        <a class="bg-primary rounded-custom text-mygray-900 font-bold text-xl flex gap-3 px-8 py-4 mx-auto max-w-max my-10 md:mb-20" href="mailto:#">
           <img src="./assets/images/svg/mail.svg" alt="" />
           j.kozlowski@mail.com
         </a>
