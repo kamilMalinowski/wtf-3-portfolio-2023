@@ -4,6 +4,27 @@ import browser from "./assets/images/svg/browser.svg";
 
 const url = "https://api.github.com/users/kamilMalinowski/repos?direction=desc";
 const projects = document.querySelector(".projects--js");
+const position = document.querySelector(".position--js");
+
+const positions = [
+  "Frontend Developer",
+  "Css Developer",
+  "UI&UX Developer",
+  "Cool Developer",
+  "Maybe one day a FullStack Developer"
+];
+let positionNumber = 0;
+position.innerHTML = positions[positionNumber];
+
+function changePositionName() {
+  setInterval(() => {
+    position.innerHTML = positions[positionNumber];
+    positionNumber++;
+    if (positionNumber >= positions.length) positionNumber = 0;
+  }, 8000);
+}
+
+changePositionName()
 
 fetch(url)
   .then((res) => res.json())
@@ -23,7 +44,6 @@ fetch(url)
       for (let tag of topics) {
         tags += `<li class="text-sm font-medium tracking-wider bg-gray-800 bg-gradient-to-br from-gradientfrom to-gradientto rounded px-2 py-1 flex items-center">${tag}</li>`;
       }
-      console.log(repo);
       const projectTemplate = `<article class="bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom ">
     <div class="p-4  bg-gray-800 bg-gradient-to-br from-gradientfrom to-gradientto  flex gap-[0.375rem] border-b-2 border-mygray-900 shadow-card rounded-t-custom">
       <div class="rounded-full w-3 h-3 bg-mygray-900 opacity-50"></div>
