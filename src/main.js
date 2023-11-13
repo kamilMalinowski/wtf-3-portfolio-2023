@@ -34,7 +34,7 @@ fetch(url)
       <header class="flex gap-4 items-center mb-4">
         <h3 class="font-bold text-2xl">${name}</h3>
         <p class="max-w-max rounded px-2 py-1 flex items-center gap-[0.125rem] text-mygray-400 bg-mygray-700 bg-gradient-to-br from-gradientfrom to-gradientto font-medium leading-4">
-          <img class="w-4 h-4" src="${star}" alt="" />
+          <img width="16" height="16" class="w-4 h-4" src="${star}" alt="" />
           ${stargazers_count}
         </p>
       </header>
@@ -42,11 +42,11 @@ fetch(url)
       <ul class="flex gap-2 mt-4 flex-wrap">${tags}</ul>
       <div class="flex flex-col gap-4 mt-10 md:flex-row">
         <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${homepage}" target="_blank" rel="noreferrer nofollow">
-          <img src="${browser}" alt="" />
+          <img width="24" height="24" class="w-6 h-6" src="${browser}" alt="" />
           View demo
         </a>
         <a class="md:text-xl bg-mygray-900 text-primary rounded-xl border border-mygray-700 font-bold tracking-wider flex gap-3 px-5 py-4 max-w-max" href="${html_url}" target="_blank" rel="noreferrer nofollow">
-          <img src="${github}" alt="" />
+          <img width="24" height="24" class="w-6 h-6" src="${github}" alt="" />
           Source code
         </a>
       </div>
