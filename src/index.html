@@ -30,18 +30,24 @@
     />
   </head>
   <body class="font-dmsans bg-mygray-900 text-white text-base">
-    <main class="px-6 pt-6 pb-16 md:pb-32 max-w-[82rem] mx-auto">
-      <header class="flex mb-11 md:backdrop-blur-sm bg-mygray-900/80 md:mb-36">
-        <img
-          width="40"
-          height="40"
-          class="w-10 h-10"
-          src="./assets/images/svg/star.svg"
-          alt=""
-        />
-        <div class="px-4">
-          <p class="text-primary text-xl font-bold">Kamil Malinowski</p>
-          <p class="text-white uppercase text-xs font-bold tracking-wider position--js"></p>
+    <main class="  pb-16 md:pb-32 ">
+      <header class="sticky md:h-24 h-20 top-0 w-full mb-11 md:backdrop-blur-sm bg-mygray-900/80 md:mb-36 backdrop-blur-lg">
+        <div class=" w-full h-1 absolute top-0">
+          <div class="h-1 bg-primary grow-temporary"></div>
+        </div>
+        <section class="px-6 max-w-[82rem] mx-auto flex gap-4 justify-between items-center h-full">
+        <div class="flex gap-4">
+          <img
+            width="40"
+            height="40"
+            class="w-10 h-10"
+            src="./assets/images/svg/star.svg"
+            alt=""
+          />
+          <div">
+            <p class="text-primary text-xl font-bold">Kamil Malinowski</p>
+            <p class="text-white uppercase text-xs font-bold tracking-wider position--js"></p>
+          </div>
         </div>
         <nav class="hidden md:flex md:ml-auto">
           <ul class="flex gap-10 items-center font-bold">
@@ -75,7 +81,11 @@
             </li>
           </ul>
         </nav>
+      </section>
       </header>
+
+      <div class="px-6 max-w-[82rem] mx-auto">
+
 
       <section
         id="about"
@@ -390,6 +400,7 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
     <script type="module" src="./main.js"></script>
   </body>
