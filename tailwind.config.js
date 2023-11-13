@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         gradientfrom: "rgba(255, 255, 255, 0.10)",
         gradientto: "rgba(255, 255, 255, 0.04)",
-        primary: "#CEFF7E",
+        primary: "#7EFFD1",
         mygray: {
           400: "#9CA3AF",
           500: "#676B73",
