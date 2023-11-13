@@ -11,9 +11,7 @@ module.exports = {
         gradientto: "rgba(255, 255, 255, 0.04)",
         primary: "#7EFFD1",
         mygray: {
-          400: "#9CA3AF",
           500: "#676B73",
-          700: "#1F2937",
           900: "#020916",
         },
       },
