@@ -30,377 +30,401 @@
     />
   </head>
   <body class="font-dmsans bg-mygray-900 text-white text-base">
-    <main class="  pb-16 md:pb-32 ">
-      <header class="sticky md:h-24 h-20 top-0 w-full mb-11 md:backdrop-blur-sm bg-mygray-900/50 md:mb-36 backdrop-blur-lg">
-        <div class=" w-full h-1 absolute top-0">
+    <main class="pb-16 md:pb-32">
+      <header
+        class="sticky md:h-24 h-20 top-0 w-full mb-11 md:backdrop-blur-sm bg-mygray-900/50 md:mb-36 backdrop-blur-lg"
+      >
+        <div class="w-full h-1 absolute top-0">
           <div class="h-1 bg-primary grow-temporary"></div>
         </div>
-        <section class="px-6 max-w-[82rem] mx-auto flex gap-4 justify-between items-center h-full">
-        <div class="flex gap-4">
-          <img
-            width="40"
-            height="40"
-            class="w-10 h-10"
-            src="./assets/images/svg/star.svg"
-            alt=""
-          />
-          <div">
-            <p class="text-primary text-xl font-bold">Kamil Malinowski</p>
-            <p class="text-white uppercase text-xs font-bold tracking-wider position--js"></p>
+        <section
+          class="px-6 max-w-[82rem] mx-auto flex gap-4 justify-between items-center h-full"
+        >
+          <div class="flex gap-4">
+            <img
+              width="40"
+              height="40"
+              class="w-10 h-10"
+              src="./assets/images/svg/star.svg"
+              alt=""
+            />
+            <div>
+              <p class="text-primary text-xl font-bold">Kamil Malinowski</p>
+              <p
+                class="text-white uppercase text-xs font-bold tracking-wider position--js"
+              ></p>
+            </div>
           </div>
-        </div>
-        <nav class="hidden md:flex md:ml-auto">
-          <ul class="flex gap-10 items-center font-bold">
-            <li>
-              <a href="#About">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a class="flex gap-2 items-center" download href="#">
+          <nav class="hidden md:flex md:ml-auto">
+            <ul class="flex gap-10 items-center font-bold">
+              <li>
+                <a href="#About">About</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a class="flex gap-2 items-center" download href="#">
+                  <img
+                    width="20"
+                    height="20"
+                    class="w-5 h-5"
+                    src="./assets/images/svg/download.svg"
+                    alt=""
+                  />
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  class="px-8 py-[0.875rem] rounded-xl text-mygray-900 bg-primary hover:bg-white"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+
+      <div class="px-6 max-w-[82rem] mx-auto">
+        <section
+          id="about"
+          class="flex gap-5 flex-col-reverse mb-20 md:mb-60 md:flex-row md:justify-between md:items-center"
+        >
+          <div class="max-w-3xl">
+            <h1 class="font-bold text-2xl mb-4 md:text-5xl md:leading-[4rem]">
+              My name is Kamil and I'm an aspiring
+              <span class="text-primary">Frontend developer</span> and a big
+              progressive music fan.
+            </h1>
+            <p class="text-gray-400 leading-normal md:text-2xl">
+              You might be interested in checking the list of my
+              <a
+                class="text-white underline underline-offset-2 hover:text-primary"
+                href="#skills"
+                >skills</a
+              >. Don't forget to have a glimpse at my
+              <a
+                class="text-white underline underline-offset-2 hover:text-primary"
+                href="#projects"
+                >projects</a
+              >. I'm looking for a new challenges so if you have one -
+              <a
+                class="text-white underline underline-offset-2 hover:text-primary whitespace-nowrap"
+                href="#contact"
+                >contact me</a
+              >&nbsp;😊
+            </p>
+            <div class="flex flex-col gap-4 mt-8 md:mt-16 md:flex-row">
+              <a
+                class="hover:bg-white hover:border-white md:w-max w-full items-center justify-center bg-primary rounded-xl md:rounded-custom border-2 border-primary text-mygray-900 font-bold text-xl flex gap-3 px-4 py-3 md:px-8"
+                href="#contact"
+              >
                 <img
-                  width="20"
-                  height="20"
-                  class="w-5 h-5"
-                  src="./assets/images/svg/download.svg"
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/message.svg"
                   alt=""
                 />
-                Resume
+                Get in touch
+              </a>
+              <a
+                class="hover:bg-gray-800 md:w-max w-full items-center justify-center text-primary rounded-xl md:rounded-custom border-2 border-gray-800 font-bold text-xl flex gap-3 px-4 py-3 md:px-8"
+                href="#skills"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/user.svg"
+                  alt=""
+                />
+                Get to know me
+              </a>
+            </div>
+          </div>
+          <img
+            width="416"
+            height="459"
+            class=" max-w-[26rem] border-2 rounded-tl-xl rounded-tr-[6rem] rounded-br-xl rounded-bl-[6rem]"
+            src="./assets/images/person.png"
+            alt=""
+          />
+        </section>
+
+        <section id="skills" class="mb-20 md:mb-60">
+          <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
+            MY SKILLS
+          </h2>
+          <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
+            I've picked up some cool skills along the way, and I'm excited to
+            share them with you. Check out what I can do below!
+          </p>
+          <div class="grid gap-4 md:grid-cols-3">
+            <article
+              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
+            >
+              <img
+                width="176"
+                height="176"
+                class="w-44 h-44 mb-10 md:mb-20"
+                src="./assets/images/svg/triangle.svg"
+                alt=""
+              />
+              <h3
+                class="border-t-2 border-primary tracking-tight text-2xl pt-3"
+              >
+                Working knowledge
+              </h3>
+              <ul class="mt-3 space-y-2">
+                <li>— Semantic HTML5</li>
+                <li>— Flexbox</li>
+                <li>— Markdown</li>
+                <li>— JS: Local storage</li>
+                <li>— Figma</li>
+                <li>— CSS grid</li>
+                <li>— Forms</li>
+                <li>— JS: DOM manipulations</li>
+                <li>— SASS</li>
+              </ul>
+            </article>
+            <article
+              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
+            >
+              <img
+                width="176"
+                height="176"
+                class="w-44 h-44 mb-10 md:mb-20"
+                src="./assets/images/svg/circle.svg"
+                alt=""
+              />
+              <h3
+                class="border-t-2 border-primary tracking-tight text-2xl pt-3"
+              >
+                Know something about
+              </h3>
+              <ul class="mt-3 space-y-2">
+                <li>— JavaScript ES6 + features</li>
+                <li>— CSS animations</li>
+                <li>— Working with API</li>
+                <li>— NPM Scripts</li>
+                <li>— PWA</li>
+                <li>— Git</li>
+                <li>— Accessibility</li>
+              </ul>
+            </article>
+            <article
+              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
+            >
+              <img
+                width="176"
+                height="176"
+                class="w-44 h-44 mb-10 md:mb-20"
+                src="./assets/images/svg/shape.svg"
+                alt=""
+              />
+              <h3
+                class="border-t-2 border-primary tracking-tight text-2xl pt-3"
+              >
+                Want to learn
+              </h3>
+              <ul class="mt-3 space-y-2">
+                <li>— React</li>
+                <li>— Node</li>
+                <li>— Electron</li>
+                <li>— SSR</li>
+                <li>— TypeScript</li>
+                <li>— Gatsby</li>
+                <li>— WebSockets</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="mb-20 md:mb-60">
+          <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
+            RECENT PROJECTS
+          </h2>
+          <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
+            Since diving into frontend development in 2023, I've brought a range
+            of projects to life. Here's a snapshot of my accomplishments so far.
+          </p>
+          <div class="grid md:grid-cols-2 gap-4 projects--js"></div>
+        </section>
+
+        <section id="after-hours" class="mb-20 md:mb-60">
+          <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
+            AFTER HOURS
+          </h2>
+          <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
+            Outside of my regular working hours, I delve into an array of
+            activities and passions. Here's a glimpse into how I spend my
+            after-hours.
+          </p>
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-14 md:gap-4">
+            <article>
+              <img
+                width="632"
+                height="960"
+                class="border-2 border-white mb-4 md:mb-6  rounded-tl-xl rounded-tr-[6rem] rounded-br-xl rounded-bl-[6rem]"
+                src="./assets/images/music.png"
+                alt=""
+              />
+              <h3 class="text-2xl font-bold mb-1">Drumming Vibes</h3>
+              <p class="text-gray-400">
+                After hours, I'm lost in rhythmic bliss, creating beats on my
+                drum set—turning each tap and crash into my own nightly
+                symphony.
+              </p>
+            </article>
+            <article>
+              <img
+                width="632"
+                height="960"
+                class="border-2 border-white mb-4 md:mb-6  rounded-tl-[6rem] rounded-tr-xl rounded-br-[6rem] rounded-bl-xl"
+                src="./assets/images/pixelart.png"
+                alt=""
+              />
+              <h3 class="text-2xl font-bold mb-1">Pixel Art Passion</h3>
+              <p class="text-gray-400">
+                In the pixelated universe, I craft visual tales, pixel by pixel.
+                Whether nostalgic or new, pixel art lets me blend creativity and
+                precision in a captivating way.
+              </p>
+            </article>
+            <article>
+              <img
+                width="632"
+                height="960"
+                class="border-2 border-white mb-4 md:mb-6  rounded-tl-xl rounded-tr-[6rem] rounded-br-xl rounded-bl-[6rem]"
+                src="./assets/images/design.png"
+                alt=""
+              />
+              <h3 class="text-2xl font-bold mb-1">Design Dynamo</h3>
+              <p class="text-gray-400">
+                In the digital realm of graphic design, I turn ideas into visual
+                realities—crafting sleek logos and stunning illustrations, where
+                aesthetics meet purpose. Colors, typography, and layouts become
+                my tools in this world of visual storytelling.
+              </p>
+            </article>
+            <article>
+              <img
+                width="632"
+                height="960"
+                class="border-2 border-white mb-4 md:mb-6  rounded-tl-[6rem] rounded-tr-xl rounded-br-[6rem] rounded-bl-xl"
+                src="./assets/images/code.png"
+                alt=""
+              />
+              <h3 class="text-2xl font-bold mb-1">Code Crafting</h3>
+              <p class="text-gray-400">
+                Beyond the screen, I delve into HTML, CSS, and JavaScript,
+                shaping ideas into interactive web experiences. Each line of
+                code is a brushstroke on the canvas of the internet.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="text-center">
+          <h2 class="font-bold text-3xl mb-4 md:text-[2.5rem]">
+            Let's work together
+          </h2>
+          <p class="text-gray-400 font-medium text-lg md:text-2xl leading-6">
+            I'm open for new opportunities.<br />If you have one for me we
+            should talk!
+          </p>
+          <a
+            class="bg-primary items-center rounded-custom text-mygray-900 font-bold text-sm md:text-xl flex gap-3 px-8 py-4 mx-auto max-w-max my-10 md:mb-20"
+            href="mailto:kamil.malinowski.mlu@gmail.com"
+          >
+            <img
+              width="24"
+              height="24"
+              class="hidden md:inline-block w-6 h-6"
+              src="./assets/images/svg/mail.svg"
+              alt=""
+            />
+            kamil.malinowski.mlu@gmail.com
+          </a>
+          <p class="text-gray-400 font-medium text-2xl">or find me on</p>
+          <ul class="flex gap-4 justify-center mt-6 flex-wrap">
+            <li>
+              <a
+                aria-label="GitHub"
+                target="_blank"
+                rel="noreferrer nofollow"
+                class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
+                href="https://github.com/kamilMalinowski"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/github.svg"
+                  alt=""
+                />
               </a>
             </li>
             <li>
               <a
-                class="px-8 py-[0.875rem] rounded-xl text-mygray-900 bg-primary hover:bg-white"
-                href="#contact"
-                >Contact</a
+                target="_blank"
+                rel="noreferrer nofollow"
+                class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
+                href="https://www.linkedin.com/in/kamil-malinowski-4034601b5/"
               >
+                <img
+                  aria-label="LinkedIn"
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/linkedin.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="Instagram"
+                target="_blank"
+                rel="noreferrer nofollow"
+                class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
+                href="https://www.instagram.com/mluofficial/"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/instagram.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="Facebook"
+                target="_blank"
+                rel="noreferrer nofollow"
+                class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
+                href="https://www.facebook.com/kams.malinowski/"
+              >
+                <img
+                  width="24"
+                  height="24"
+                  class="w-6 h-6"
+                  src="./assets/images/svg/facebook.svg"
+                  alt=""
+                />
+              </a>
             </li>
           </ul>
-        </nav>
-      </section>
-      </header>
-
-      <div class="px-6 max-w-[82rem] mx-auto">
-
-
-      <section
-        id="about"
-        class="flex gap-5 flex-col-reverse mb-20 md:mb-60 md:flex-row md:justify-between md:items-center"
-      >
-        <div class="max-w-3xl">
-          <h1 class="font-bold text-2xl mb-4 md:text-5xl md:leading-[4rem]">
-            My name is Kamil and I'm an aspiring
-            <span class="text-primary">Frontend developer</span> and a big progressive music fan.
-          </h1>
-          <p class="text-gray-400 leading-normal md:text-2xl">
-            You might be interested in checking the list of my
-            <a class="text-white underline underline-offset-2 hover:text-primary" href="#skills"
-              >skills</a
-            >. Don't forget to have a glimpse at my
-            <a class="text-white underline underline-offset-2 hover:text-primary" href="#projects"
-              >projects</a
-            >. I'm looking for a new challenges so if you have one -
-            <a
-              class="text-white underline underline-offset-2 hover:text-primary whitespace-nowrap"
-              href="#contact"
-              >contact me</a
-            >&nbsp;😊
-          </p>
-          <div
-            class="flex flex-col gap-4 mt-8 md:mt-16 md:flex-row "
-          >
-            <a
-              class="hover:bg-white hover:border-white md:w-max w-full items-center justify-center bg-primary rounded-xl md:rounded-custom border-2 border-primary text-mygray-900 font-bold text-xl flex gap-3 px-4 py-3  md:px-8"
-              href="#contact"
-            >
-              <img
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/message.svg"
-                alt=""
-              />
-              Get in touch
-            </a>
-            <a
-              class="hover:bg-gray-800 md:w-max w-full items-center justify-center text-primary rounded-xl md:rounded-custom border-2 border-gray-800 font-bold text-xl flex gap-3 px-4 py-3  md:px-8"
-              href="#skills"
-            >
-              <img
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/user.svg"
-                alt=""
-              />
-              Get to know me
-            </a>
-          </div>
-        </div>
-        <img
-          width="416"
-          height="459"
-          class="max-w-[26rem]"
-          src="./assets/images/person.png"
-          alt=""
-        />
-      </section>
-
-      <section id="skills" class="mb-20 md:mb-60">
-        <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
-          MY SKILLS
-        </h2>
-        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
-          I've picked up some cool skills along the way, and I'm excited to
-          share them with you. Check out what I can do below!
-        </p>
-        <div class="grid gap-4 md:grid-cols-3">
-          <article
-            class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
-          >
-            <img
-              width="176"
-              height="176"
-              class="w-44 h-44 mb-10 md:mb-20"
-              src="./assets/images/svg/triangle.svg"
-              alt=""
-            />
-            <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
-              Working knowledge
-            </h3>
-            <ul class=" mt-3 space-y-2">
-              <li>— Semantic HTML5</li>
-              <li>— Flexbox</li>
-              <li>— Markdown</li>
-              <li>— JS: Local storage</li>
-              <li>— Figma</li>
-              <li>— CSS grid</li>
-              <li>— Forms</li>
-              <li>— JS: DOM manipulations</li>
-              <li>— SASS</li>
-            </ul>
-          </article>
-          <article
-            class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
-          >
-            <img
-              width="176"
-              height="176"
-              class="w-44 h-44 mb-10 md:mb-20"
-              src="./assets/images/svg/circle.svg"
-              alt=""
-            />
-            <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
-              Know something about
-            </h3>
-            <ul class=" mt-3 space-y-2">
-              <li>— JavaScript ES6 + features</li>
-              <li>— CSS animations</li>
-              <li>— Working with API</li>
-              <li>— NPM Scripts</li>
-              <li>— PWA</li>
-              <li>— Git</li>
-              <li>— Accessibility</li>
-            </ul>
-          </article>
-          <article
-            class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-custom p-5 md:p-10"
-          >
-            <img
-              width="176"
-              height="176"
-              class="w-44 h-44 mb-10 md:mb-20"
-              src="./assets/images/svg/shape.svg"
-              alt=""
-            />
-            <h3 class="border-t-2 border-primary tracking-tight text-2xl pt-3">
-              Want to learn
-            </h3>
-            <ul class=" mt-3 space-y-2">
-              <li>— React</li>
-              <li>— Node</li>
-              <li>— Electron</li>
-              <li>— SSR</li>
-              <li>— TypeScript</li>
-              <li>— Gatsby</li>
-              <li>— WebSockets</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" class="mb-20 md:mb-60">
-        <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
-          RECENT PROJECTS
-        </h2>
-        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
-          Since diving into frontend development in 2023, I've brought a range
-          of projects to life. Here's a snapshot of my accomplishments so far.
-        </p>
-        <div class="grid md:grid-cols-2 gap-4 projects--js"></div>
-      </section>
-
-      <section id="after-hours" class="mb-20 md:mb-60">
-        <h2 class="font-bold text-xl tracking-wider text-gray-400 mb-4">
-          AFTER HOURS
-        </h2>
-        <p class="font-medium text-2xl mb-10 md:mb-20 md:text-4xl max-w-3xl">
-          Outside of my regular working hours, I delve into an array of
-          activities and passions. Here's a glimpse into how I spend my
-          after-hours.
-        </p>
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-14 md:gap-4">
-          <article>
-            <img
-              width="632"
-              height="960"
-              class="border-2 border-gray-800 rounded-custom mb-4 md:mb-6"
-              src="./assets/images/music.png"
-              alt=""
-            />
-            <h3 class="text-2xl font-bold mb-1">Drumming Vibes</h3>
-            <p class="text-gray-400">
-              After hours, I'm lost in rhythmic bliss, creating beats on my drum set—turning each tap and crash into my own nightly symphony.
-            </p>
-          </article>
-          <article>
-            <img
-              width="632"
-              height="960"
-              class="border-2 border-gray-800 rounded-custom mb-4 md:mb-6"
-              src="./assets/images/pixelart.png"
-              alt=""
-            />
-            <h3 class="text-2xl font-bold mb-1">Pixel Art Passion</h3>
-            <p class="text-gray-400">
-              In the pixelated universe, I craft visual tales, pixel by pixel. Whether nostalgic or new, pixel art lets me blend creativity and precision in a captivating way.
-            </p>
-          </article>
-          <article>
-            <img
-              width="632"
-              height="960"
-              class="border-2 border-gray-800 rounded-custom mb-4 md:mb-6"
-              src="./assets/images/design.png"
-              alt=""
-            />
-            <h3 class="text-2xl font-bold mb-1">Design Dynamo</h3>
-            <p class="text-gray-400">
-              In the digital realm of graphic design, I turn ideas into visual realities—crafting sleek logos and stunning illustrations, where aesthetics meet purpose. Colors, typography, and layouts become my tools in this world of visual storytelling.
-            </p>
-          </article>
-          <article>
-            <img
-              width="632"
-              height="960"
-              class="border-2 border-gray-800 rounded-custom mb-4 md:mb-6"
-              src="./assets/images/code.png"
-              alt=""
-            />
-            <h3 class="text-2xl font-bold mb-1">Code Crafting</h3>
-            <p class="text-gray-400">
-              Beyond the screen, I delve into HTML, CSS, and JavaScript, shaping ideas into interactive web experiences. Each line of code is a brushstroke on the canvas of the internet.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="text-center">
-        <h2 class="font-bold text-3xl mb-4 md:text-[2.5rem]">
-          Let's work together
-        </h2>
-        <p class="text-gray-400 font-medium text-lg md:text-2xl leading-6">
-          I'm open for new opportunities.<br />If you have one for me we should
-          talk!
-        </p>
-        <a
-          class="bg-primary items-center rounded-custom text-mygray-900 font-bold text-sm md:text-xl  flex gap-3 px-8 py-4 mx-auto max-w-max my-10 md:mb-20"
-          href="mailto:kamil.malinowski.mlu@gmail.com"
-        >
-          <img
-            width="24"
-            height="24"
-            class="hidden md:inline-block  w-6 h-6"
-            src="./assets/images/svg/mail.svg"
-            alt=""
-          />
-          kamil.malinowski.mlu@gmail.com
-        </a>
-        <p class="text-gray-400 font-medium text-2xl">or find me on</p>
-        <ul class="flex gap-4 justify-center mt-6 flex-wrap">
-          <li>
-            <a
-            aria-label="GitHub"
-              target="_blank"
-              rel="noreferrer nofollow"
-              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
-              href="https://github.com/kamilMalinowski"
-            >
-              <img
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/github.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer nofollow"
-              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
-              href="https://www.linkedin.com/in/kamil-malinowski-4034601b5/"
-            >
-              <img
-              aria-label="LinkedIn"
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/linkedin.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li>
-            <a aria-label="Instagram"
-              target="_blank"
-              rel="noreferrer nofollow"
-              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
-              href="https://www.instagram.com/mluofficial/"
-            >
-              <img
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/instagram.svg"
-                alt=""
-              />
-            </a>
-          </li>
-          <li>
-            <a aria-label="Facebook"
-              target="_blank"
-              rel="noreferrer nofollow"
-              class="shadow-card bg-mygray-900 bg-gradient-to-br from-gradientfrom to-gradientto rounded-full w-14 h-14 flex items-center justify-center"
-              href="https://www.facebook.com/kams.malinowski/"
-            >
-              <img
-                width="24"
-                height="24"
-                class="w-6 h-6"
-                src="./assets/images/svg/facebook.svg"
-                alt=""
-              />
-            </a>
-          </li>
-        </ul>
-      </section>
-    </div>
+        </section>
+      </div>
     </main>
     <script type="module" src="./main.js"></script>
   </body>
