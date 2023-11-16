@@ -22,6 +22,15 @@ module.exports = {
         card: "0px 2px 0px  rgba(255, 255, 255, 0.15) inset",
         images: "0px 0px 20px 0px #7EFFD1 inset;",
       },
+      animation:{
+        'logo-spin': 'logoSpin 16s linear infinite',
+      },
+      keyframes: {
+        logoSpin: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(360deg)' }
+        }
+      }
     },
   },
   plugins: [],

@@ -32,19 +32,16 @@
   <body class="font-dmsans bg-mygray-900 text-white text-base">
     <main class="pb-16 md:pb-32">
       <header
-        class="sticky md:h-24 h-20 top-0 w-full mb-11 md:backdrop-blur-sm bg-mygray-900/50 md:mb-36 backdrop-blur-lg"
+        class="shadow-md shadow-white/5 sticky md:h-24 h-20 top-0 w-full mb-11  bg-mygray-900/5 md:mb-36 backdrop-blur-xl"
       >
-        <div class="w-full h-1 absolute top-0">
-          <div class="h-1 bg-primary grow-temporary"></div>
-        </div>
         <section
           class="px-6 max-w-[82rem] mx-auto flex gap-4 justify-between items-center h-full"
         >
-          <div class="flex gap-4">
+          <div class="flex gap-4 items-center">
             <img
               width="40"
               height="40"
-              class="w-10 h-10"
+              class="w-10 h-10 animate-logo-spin spin"
               src="./assets/images/svg/star.svg"
               alt=""
             />
@@ -55,32 +52,32 @@
               ></p>
             </div>
           </div>
-          <nav class="hidden md:flex md:ml-auto">
-            <ul class="flex gap-10 items-center font-bold">
-              <li>
-                <a href="#About">About</a>
+          <nav class=" md:flex md:ml-auto">
+            <ul class="flex gap-5 lg:gap-10 items-center font-bold">
+              <li class="hidden md:inline-block">
+                <a class="duration-300 hover:text-primary" href="#About">About</a>
               </li>
-              <li>
-                <a href="#skills">Skills</a>
+              <li class="hidden md:inline-block">
+                <a class="duration-300 hover:text-primary" href="#skills">Skills</a>
               </li>
-              <li>
-                <a href="#projects">Projects</a>
+              <li class="hidden md:inline-block">
+                <a class="duration-300 hover:text-primary" href="#projects">Projects</a>
               </li>
-              <li>
-                <a class="flex gap-2 items-center" download href="#">
+              <li class="">
+                <a class="flex gap-2  md:hover:text-primary items-center px-8 py-2 md:p-0 md:text-white md:bg-transparent duration-300 md:hover:bg-transparent rounded-xl text-mygray-900 bg-primary hover:bg-white" download href="#">
                   <img
                     width="20"
                     height="20"
-                    class="w-5 h-5"
+                    class="w-5 h-5 hidden lg:inline-block"
                     src="./assets/images/svg/download.svg"
                     alt=""
                   />
                   Resume
                 </a>
               </li>
-              <li>
+              <li class="hidden md:inline-block">
                 <a
-                  class="px-8 py-[0.875rem] rounded-xl text-mygray-900 bg-primary hover:bg-white"
+                  class="duration-300 px-8 py-[0.875rem] rounded-xl text-mygray-900 bg-primary hover:bg-white"
                   href="#contact"
                   >Contact</a
                 >

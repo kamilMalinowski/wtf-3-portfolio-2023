@@ -13,14 +13,15 @@ const positions = [
   "Cool Developer",
   "Maybe one day a FullStack Developer"
 ];
-let positionNumber = 0;
-position.innerHTML = positions[positionNumber];
 
 function changePositionName() {
+  let positionNumber = 0;
+  position.innerHTML = positions[positionNumber];
   setInterval(() => {
-    position.innerHTML = positions[positionNumber];
     positionNumber++;
     if (positionNumber >= positions.length) positionNumber = 0;
+    position.innerHTML = positions[positionNumber];
+
   }, 8000);
 }
 
