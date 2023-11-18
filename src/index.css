@@ -4,8 +4,18 @@
 
 html{
     scroll-behavior: smooth;
+
 }
 
 *{
     scroll-margin-bottom: 90px;
+}
+
+/* custom styles */
+.perspective{
+    perspective: 100px;
+}
+
+.link-hover:hover svg{
+    stroke: #7EFFD1;
 }

@@ -32,19 +32,21 @@
   <body class="font-dmsans bg-mygray-900 text-white text-base">
     <main class="pb-16 md:pb-32">
       <header
-        class="shadow-md shadow-white/5 sticky md:h-24 h-20 top-0 w-full mb-11  bg-mygray-900/5 md:mb-36 backdrop-blur-xl"
+        class="z-50 shadow-md shadow-white/5 sticky md:h-24 h-20 top-0 w-full mb-11  bg-mygray-900/5 md:mb-36 backdrop-blur-xl"
       >
         <section
           class="px-6 max-w-[82rem] mx-auto flex gap-4 justify-between items-center h-full"
         >
           <div class="flex gap-4 items-center">
-            <img
-              width="40"
-              height="40"
-              class="w-10 h-10 animate-logo-spin spin"
-              src="./assets/images/svg/star.svg"
-              alt=""
-            />
+            <div class="perspective">
+              <img
+                width="40"
+                height="40"
+                class="w-10 h-10 animate-logo-spin spin"
+                src="./assets/images/svg/star.svg"
+                alt=""
+              />
+            </div>
             <div>
               <p class="text-primary text-xl font-bold">Kamil Malinowski</p>
               <p
@@ -64,14 +66,11 @@
                 <a class="duration-300 hover:text-primary" href="#projects">Projects</a>
               </li>
               <li class="">
-                <a class="flex gap-2  md:hover:text-primary items-center px-8 py-2 md:p-0 md:text-white md:bg-transparent duration-300 md:hover:bg-transparent rounded-xl text-mygray-900 bg-primary hover:bg-white" download href="#">
-                  <img
-                    width="20"
-                    height="20"
-                    class="w-5 h-5 hidden lg:inline-block"
-                    src="./assets/images/svg/download.svg"
-                    alt=""
-                  />
+                <a class="link-hover flex gap-2 md:hover:text-primary items-center px-8 py-2 md:p-0 md:text-white md:bg-transparent duration-300 md:hover:bg-transparent rounded-xl text-mygray-900 bg-primary hover:bg-white" download href="#">
+
+                  <svg class="duration-300  stroke-gray-400 w-5 h-5 hidden lg:inline-block" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12L12 16M12 16L16 12M12 16V8M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                   Resume
                 </a>
               </li>
