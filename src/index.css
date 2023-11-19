@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
-
+html {
+  scroll-behavior: smooth;
 }
 
-*{
-    scroll-margin-bottom: 90px;
+* {
+  scroll-margin-bottom: 90px;
 }
 
 /* custom styles */
-.perspective{
-    perspective: 100px;
+.perspective {
+  perspective: 100px;
 }
 
-.link-hover:hover svg{
-    stroke: #7EFFD1;
+.link-hover:hover svg {
+  stroke: #7effd1;
 }
