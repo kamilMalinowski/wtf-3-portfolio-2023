@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html"
+    "build": "parcel build src/*.html --public-url=https://wtf-3-portfolio-2023.netlify.app"
   },
   "keywords": [],
   "author": "",
