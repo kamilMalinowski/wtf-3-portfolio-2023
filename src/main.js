@@ -9,9 +9,9 @@ const position = document.querySelector(".position--js");
 const positions = [
   "Frontend Developer",
   "Css Developer",
-  "UI&UX Developer",
+  "UI/UX Designer",
   "Cool Developer",
-  "Maybe one day a FullStack Developer"
+  "FullStack Developer???"
 ];
 
 function changePositionName() {
