@@ -68,7 +68,7 @@ fetch(url)
           <img width="24" height="24" class="w-6 h-6" src="${browser}" alt="" />
           View demo
         </a>
-        <a class="hover:bg-gray-800 justify-center duration-300 md:items-center md:text-xl bg-mygray-900 text-primary rounded-xl border-gray-800 border-2 md:w-full font-bold tracking-wider flex gap-3 px-5 py-4 " href="${html_url}" target="_blank" rel="noreferrer nofollow">
+        <a aria-label="Source code" class="hover:bg-gray-800 justify-center duration-300 md:items-center md:text-xl bg-mygray-900 text-primary rounded-xl border-gray-800 border-2 md:w-full font-bold tracking-wider flex gap-3 px-5 py-4 " href="${html_url}" target="_blank" rel="noreferrer nofollow">
           <img width="24" height="24" class="min-w-max w-6 h-6" src="${github}" alt="" />
           <span class="hidden md:block w-full md:max-w-max">Source code</span>
         </a>
