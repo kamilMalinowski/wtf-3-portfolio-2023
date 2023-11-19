@@ -7,12 +7,12 @@ html {
 }
 
 * {
-  scroll-margin-bottom: 90px;
+  scroll-margin-top: 8rem;
 }
 
 /* custom styles */
 .perspective {
-  perspective: 100px;
+  perspective: 200px;
 }
 
 .link-hover:hover svg {
