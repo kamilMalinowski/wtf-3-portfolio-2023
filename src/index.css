@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/DMSans-Regular.ttf") format('truetype');
+  
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/DMSans-Medium.ttf") format('truetype');
+ 
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/DMSans-Bold.ttf") format('truetype');
+ 
+}
+
+
 html {
   scroll-behavior: smooth;
 }
