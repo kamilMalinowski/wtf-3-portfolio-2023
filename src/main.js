@@ -10,8 +10,7 @@ const positions = [
   "Frontend Developer",
   "Css Developer",
   "UI/UX Designer",
-  "Cool Developer",
-  "FullStack Developer???"
+  "Cool Developer"
 ];
 
 function changePositionName() {
@@ -76,7 +75,7 @@ fetch(url)
     </div>
     </article>`;
 
-      if (id !== 714817685 && description !== null)
+      if (id !== 714817685 && id !== 726596581 && description !== null)
         projects.insertAdjacentHTML("afterbegin", projectTemplate);
     }
   })
